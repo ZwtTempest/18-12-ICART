@@ -1,2 +1,2 @@
-# 18-12-ICART
+# ICART
 My project
