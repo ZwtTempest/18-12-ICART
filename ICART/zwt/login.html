@@ -1,0 +1,21 @@
+<div id="login">
+    <div class="login-close" onclick="loginClose()">&times;</div>
+    <div class="login-header">登录</div>
+    <input type="text" name="uname" id="uname" placeholder="手机号或邮箱" onblur="Login_tips()">
+    <span class="err-tips">手机号或邮箱格式错误</span>
+    <input type="password" name="upwd" id="upwd" placeholder="密码">
+    <input type="button" value="登录" class="login-btn" onclick="userLogin()">
+    <div class="login-bottom">
+        <a href="#">忘记密码</a>
+        <span>|</span>
+        <a href="register.html">注册</a>
+    </div>
+    <div class="login-choice">
+        <p>第三方账号登录</p>
+        <div class="login-hr"></div>
+        <div class="login-choice-a">
+            <div class="login-choice-img"></div>
+        </div>
+    </div>
+    <div class="pwd-tips" data-id="pwd-tips">密码错误</div>
+</div>

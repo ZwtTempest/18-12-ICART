@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* ҳ�涥�� */
+#index-header{
+    width: 100%;
+    height: 55px;
+    border-bottom: 3px solid #E83D02;
+    background-color: #2B2A28;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+.index-header-body{
+    width: 1000px;
+    height: 55px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/* ������� */
+.index-header-left ul{
+    float: left;
+    padding-top: 27px;
+    padding-bottom: 10px;
+}
+.index-header-left ul li{
+    float: left;
+}
+.index-header-left ul li a{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 32px 41px;
+    border-left: 1px dotted #5a5957;
+    border-right: 1px dotted #5a5957;
+    cursor: pointer;
+}
+.index-header-left ul li:first-child a{
+    background: url(../img/home.png) no-repeat top center;
+}
+.index-header-left ul li:nth-child(2) a{
+    background: url(../img/cart.png) no-repeat top center;
+}
+.index-header-left ul li:nth-child(3) a{
+    background: url(../img/wish_list.png) no-repeat top center;
+}
+.index-header-left ul li:nth-child(4) a{
+    background: url(../img/account.png) no-repeat top center;
+}
+.index-header-left ul li:last-child a{
+    background: url(../img/checkout.png) no-repeat top center;
+}
+.index-header-left ul li a:hover{
+    color: #ccc;
+    background-color: #333;
+}
+/* �����Ҳ� */
+.index-header-right ul{
+    float: right;
+    padding-top: 27px;
+    padding-bottom: 10px;
+}
+.index-header-right ul li{
+    float: left;
+}
+.index-header-right ul li a{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 32px 40px;
+    border-left: 1px dotted #5a5957;
+    border-right: 1px dotted #5a5957;
+    cursor: pointer;
+}
+.index-header-right ul li:first-child a{
+    background: url(../img/register.png) no-repeat top center;
+}
+.index-header-right ul li:last-child a{
+    background: url(../img/login.png) no-repeat top center;
+}
+.index-header-right ul li a:hover{
+    color: #ccc;
+    background-color: #333;
+}
+.index-header-body ul li a.header-active {
+    background-color: #E83D02;
+}
+#index-header-login{
+    display: none;
+}
+#index-header-login>span#user-name{
+    float: right;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+#user-photo{
+    float: right;
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 3px;
+    cursor: pointer;
+}

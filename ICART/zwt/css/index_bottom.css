@@ -1,0 +1,117 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* 页面底部 */
+#footer{
+    color: #777;
+    background-color: #393939;
+}
+/* 底部上 */
+.footer-top{
+    height: 10px;
+    background-color: #444;
+    border-top: 1px solid #1d1d1d;
+    border-bottom: 1px solid #1d1d1d;
+}
+/* 底部中 */
+.footer-middle{
+    width: 1000px;
+    height: 203px;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 auto;
+}
+.footer-middle>div{
+    float: left;
+    margin-right: 24px;
+    margin-top: -4px;
+    overflow: hidden;
+}
+.footer-middle-first{
+    width: 350px;
+}
+.footer-middle h3{
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    margin-top: 16px;
+    background: url(../img/footer_h3.png) no-repeat bottom left;
+}
+.footer-aboutUs{
+    padding: 6px;
+    border: 1px solid #303030;
+    border-radius: 3px;
+    background-color: #353535;
+    font-family: 'Arial';
+}
+.footer-Customer{
+    width: 127px;
+}
+.footer-extras{
+    width: 150px;
+}
+.footer-middle ul{
+    line-height: 15px;
+}
+.footer-middle ul li{
+    padding-left: 17px;
+    margin-bottom: 6px;
+    background: url(../img/circle.png) 5px 3px no-repeat;
+}
+.footer-social{
+    margin-right: 0;
+}
+.footer-lastul{
+    padding: 5px 0px 2px 20px;
+}
+.footer-lastul:first-child{
+    background: url(../img/twitter.png) no-repeat left;
+}
+.footer-lastul:nth-child(2){
+    background: url(../img/facebook.png) no-repeat left;
+}
+.footer-lastul:last-child{
+    background: url(../img/rss.png) no-repeat left;
+}
+.footer-lastul a{
+    text-decoration: none;
+    color: #777;
+}
+/*底部下*/
+.footer-bottom{
+    width: 100%;
+    padding: 4px 0;
+    background-color: #444;
+    border-top: 1px solid #555;
+}
+.footer-bottom-body{
+    width: 1000px;
+    margin: 0 auto;
+}
+.footer-bottom-body:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.footer-bottom-logo{
+    float: left;
+}
+.footer-bottom-logo a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #777;
+}
+.footer-bottom-right ul li{
+    float: right;
+    font-size: 12px;
+    padding-top: 10px;
+}

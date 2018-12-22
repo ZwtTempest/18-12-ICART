@@ -1,0 +1,155 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F6F5FA;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#index-header{
+    box-shadow: 0 0 40px #333;
+}
+#section{
+    width: 100%;
+    margin: 128px 0 100px;
+}
+#register-reg{
+    width: 340px;
+    color: #999;
+    padding: 15px 30px 30px;
+    border-radius: 7px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+
+                            /*����ͷ��*/
+.register-top>ul{
+    height: 40px;
+    border-bottom: 1px solid #ddd;
+}
+.register-top>ul li{
+    float: left;
+    height: 40px;
+    font-size: 14px;
+    line-height: 38px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.register-top>ul li.register-active{
+    color: #282828;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+.register-middle{
+    padding: 36px 0 0;
+}
+
+#register-email{
+    display: none;
+}
+                                /*�ֻ���ע��*/
+.register-tel-input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 18px;
+    position: relative;
+}
+.register-tel-input>input{
+    display: block;
+    width: 318px;
+    height: 38px;
+    color: #262e39;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    padding: 0 10px;
+}
+.register-tel-input>input.register-tel-code{
+    width: 58px;
+}
+.register-tel-input>canvas.yzm{
+    position: absolute;
+    top: 1px;
+    left: 105px;
+    z-index: 100;
+}
+.register-tel-input>span.newyzm{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc( 100% - 235px);
+    height: 38px;
+    line-break: 19px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.register-tel-input>input.register-tel-dyncode{
+    width: 178px;
+}
+.register-tel-input>input.register-tel-getcode{
+    width: 96px;
+    height: 40px;
+    color: #fff;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.register-tel-input>input.register-tel-getcode:hover{
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d9fff), color-stop(1, #1e6ff0) );
+}
+.register-tel-input>input.register-tel-btn{
+    width: 340px;
+    color: #fff;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+    cursor: pointer;
+}
+.register-tel-input>input.register-tel-btn:hover{
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d9fff), color-stop(1, #1e6ff0) );
+}
+                                /*����ע��*/
+
+
+                                    /*����ײ�*/
+.register-bottom{
+    font-size: 12px;
+}
+.register-bottom-left{
+    float: left;
+}
+.register-bottom-left>input{
+    padding: 0;
+    margin: 0;
+}
+.register-bottom-left>label{
+    cursor: pointer;
+}
+.register-bottom-left>a{
+    text-decoration: none;
+    color: #f00;
+}
+.register-bottom-right{
+    float: right;
+}
+.register-bottom-right>a{
+    text-decoration: none;
+    color: #1e62d0;
+}
+.register-bottom:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#login{
+    display: none;
+}
+#login:before{
+    content: '';
+    display: table;
+}

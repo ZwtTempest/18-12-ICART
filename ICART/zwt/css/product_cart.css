@@ -1,0 +1,189 @@
+body,p{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../img/body_bg.jpg);
+}
+a{
+    text-decoration: none;
+}
+
+#section{
+    width: 1000px;
+    margin: 20px auto;
+}
+.cart-top{
+    padding: 16px 24px;
+    border-bottom: 1px solid #dee2d6;
+}
+.cart-top>span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.cart-body-top{
+    background: linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+    box-shadow: 0 3px 6px #999;
+    margin-top: 15px;
+}
+.cart-body-top>ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cart-body-top>ul>li{
+    float: left;
+    color: #333;
+    text-align: center;
+    padding: 12px 12px;
+}
+.cart-body-top>ul>li:first-child{
+    width: 61px;
+}
+.cart-body-top>ul>li:nth-child(2){
+    width: 386px;
+}
+.cart-body-top>ul>li:nth-child(3){
+    width: 143px;
+}
+.cart-body-top>ul>li:nth-child(4){
+    width: 61px;
+}
+.cart-body-top>ul>li:nth-child(5){
+    width: 143px;
+}
+.cart-body-top>ul>li:last-child{
+    width: 62px;
+}
+.cart-body-top>ul>li>label,.cart-body-top>ul>li>input{
+    cursor: pointer;
+}
+.cart-body-center{
+    width: 100%;
+    background: #fff;
+    margin-top: 20px;
+}
+.cart-body-center>div>ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cart-body-center>div>ul>li{
+    float: left;
+    color: #333;
+}
+.cart-body-center>div>ul>li>div{
+    height: 130px;
+    border: 1px solid #dee2d6;
+    text-align: center;
+    line-height: 130px;
+    border-right: none;
+}
+.cart-body-center>div>ul>li:first-child>div{
+    width: 84px;
+}
+.cart-body-center>div>ul>li:nth-child(2)>div{
+    width: 409px;
+}
+.cart-body-center>div>ul>li:nth-child(3)>div{
+    width: 166px;
+}
+.cart-body-center>div>ul>li:nth-child(4)>div{
+    width: 84px;
+}
+.cart-body-center>div>ul>li:nth-child(5)>div{
+    width: 166px;
+}
+.cart-body-center>div>ul>li:last-child>div{
+    width: 84px;
+    border-right: 1px solid #dee2d6;
+}
+.cart-body-center>div>ul>li:nth-child(2)>div>div{
+    float: left;
+}
+.cart-body-center>div>ul>li:nth-child(2)>div>div.product-img{
+    height: 130px;
+    width: 70px;
+    background: url(../img/iPhone_md_1.png) no-repeat center center;
+    background-size: 40px;
+}
+.cart-body-center>div>ul>li:nth-child(2)>div>div.product-info{
+    height: 130px;
+    width: 310px;
+}
+.cart-body-center>div>ul>li:nth-child(2)>div>div.product-info>p{
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+}
+.cart-body-center>div>ul>li:nth-child(2)>div>div.product-info>p:first-child{
+    margin: 30px 0 10px 0;
+}
+.cart-body-center>div>ul>li:nth-child(4)>div>ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cart-body-center>div>ul>li:nth-child(4)>div>ul>li{
+    float: left;
+    margin-right: 2px;
+}
+.cart-body-center>div>ul>li:nth-child(4)>div>ul>li:first-child{
+    margin-left: 2px;
+}
+.cart-body-center>div>ul>li:nth-child(4)>div>ul>li>input{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.cart-body-center>div>ul>li:nth-child(4)>div>ul>li>button{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+.cart-body-center>div>ul>li:last-child>div>span{
+    cursor: pointer;
+}
+.cart-body-bottom{
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+    box-shadow: 0 -3px 6px #999;
+    margin-top: 20px;
+}
+.cart-body-bottom>div{
+    float: left;
+}
+.cart-body-bottom>div:first-child>a{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    background: #a0a5aa;
+    cursor: pointer;
+    margin: 5px 0 0 100px;
+}
+.cart-body-bottom>div:first-child>a:hover{
+    background: #909090;
+}
+.cart-body-bottom>div:nth-child(2)>p{
+    font-size: 14px;
+    margin: 13px 0 0 310px;
+}
+.cart-body-bottom>div:nth-child(2)>p>span{
+    color: #007bfb;
+}
+.cart-body-bottom>div:last-child>button{
+    width: 120px;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+    margin: 5px 0 0 30px;
+    cursor: pointer;
+}
+.cart-body-bottom>div:last-child>button:hover{
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d9fff), color-stop(1, #1e6ff0) );
+}

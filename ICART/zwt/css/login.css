@@ -1,0 +1,107 @@
+#login{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 400px;
+    height: 475px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #eee;
+    z-index: 1100;
+}
+.login-close{
+    float: right;
+    padding: 5px 10px 0 0;
+    font-size: 35px;
+    cursor: pointer;
+}
+.login-header{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 51px;
+    margin-bottom: 30px;
+}
+#login input{
+    display: block;
+    width: 75%;
+    height: 38px;
+    color: #262e39;
+    line-height: 38px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 0 10px;
+    background-color: #eee;
+    margin: 15px auto;
+}
+#login input.login-btn{
+    color: #fff;
+    width: 80.5%;
+    height: 43px;
+    outline: none;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+    cursor: pointer;
+}
+#login input.login-btn:hover{
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d9fff), color-stop(1, #1e6ff0) );
+}
+.err-tips{
+    position: absolute;
+    right: 40px;
+    top: 88px;
+    color: #f00;
+    font-size: 10px;
+    display: none;
+}
+.login-bottom{
+    float: right;
+    color: #aaa;
+    font-size: 12px;
+    margin-right: 40px;
+}
+.login-bottom a{
+    text-decoration: none;
+    color: #888;
+}
+.login-choice{
+    color: #888;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 14px;
+}
+.login-hr{
+    height: 1px;
+    width: 80%;
+    background-color: #aaa;
+    margin: 55px auto 0;
+}
+.login-choice-a{
+    width: 44px;
+    height: 44px;
+    margin: -22px auto 0;
+    padding: 0 8px;
+    background-color: #eee;
+}
+.login-choice-img{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #aaa;
+}
+.pwd-tips{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    width: 160px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: rgba(0,0,0,0.5);
+    margin: auto;
+    display: none;
+}

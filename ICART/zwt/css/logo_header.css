@@ -1,0 +1,69 @@
+/* 页面头部 */
+#logo_header{
+	width: 1000px;
+	height: 60px;
+	margin: 88px auto 0;
+}
+													/* 头部左侧 */
+.logo-img{
+	height: 60px;
+	font-size: 12px;
+	float: left;
+}
+																	/* 头部中间部分 */
+.heading{
+	float: right;
+	border: 1px solid #111;
+	border-radius: 3px;
+  	font-weight: bold;
+  	font-size: 12px;
+	padding: 8px 20px 7px 24px;
+	box-shadow: inset 0px 1px 0px 0px #888;
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #444), color-stop(1, #222) );
+	margin-right: 20px;
+	margin-top: 11px;
+}
+.heading a{
+	color: #e7e7e7;
+	text-decoration: none; 
+	text-shadow: 0 1px #111;
+}
+.heading a span{
+	background: url(../img/arrow-down.png) 100% 50% no-repeat;
+  padding-right: 15px;
+}
+.heading>span{
+	color: #fff;
+	font-size: 14px;
+}
+																	/* 头部右侧 */
+.search{
+	float: right;
+	color: #333;
+	width: 180px;
+	position: relative;
+	margin-top: 11px;
+	margin-right: 27px;
+}
+.button-search{
+	width: 36px;
+	height: 33px;
+	position: absolute;
+	left: 0;
+	background: url(../img/search.png) no-repeat scroll center transparent;
+	margin-top: 1px;
+	margin-left: 166px;
+	cursor: pointer;
+}
+.search input{
+	width: 150px;
+	height: 13px;
+	padding: 10px 36px 10px 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	outline: none;
+	background-color: #fff;
+}
+.search input:focus{
+	background-color: #ccc;
+}
